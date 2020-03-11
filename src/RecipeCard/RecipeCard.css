@@ -49,13 +49,13 @@
 
 .recipeCard .ingred {
   position: relative;
-  top: 5px;
+  top: 4px;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: ingred;
   overflow: hidden;
-  height: 170px;
+  height: 162px;
   padding-left: 20px;
   padding-right: 10px;
   -ms-flex-item-align: center;
@@ -92,7 +92,7 @@
     text-align: center;
   }
   .recipeCard .ingred {
-    height: 192px;
+    height: 184px;
   }
   .recipeCard .link {
     right: 10px;

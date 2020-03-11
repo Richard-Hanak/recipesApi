@@ -11,6 +11,7 @@ const Banner = () => {
   const [loading, setLoading] = useContext(LoadingContext);
   const [search, setSearch] = useContext(SearchContext);
   const [alcoholFree, setAlcoholFree] = useContext(AlcoholFreeContext);
+  console.log("so")
 
   const updateSearch = e => {
     setSearch(e.target.value);
